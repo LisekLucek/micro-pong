@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+	<title>Audio</title>
+	<style>
+		body
+		{
+			font-family: sans-serif;
+			background: #444;
+			color: #FFF;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Micro-Pong</h1>
+	<h2>Zagraj w Ponga z użyciem mikrofonu</h2>
+	<div>
+		<canvas></canvas>
+	</div>
+	Minimalna głośność: <input type="range" id="minimum" min="1" max="50" value="10"><br>
+	Maksymalna głośność: <input type="range" id="czulosc" min="1" max="50" value="30"><br>
+	Płynność ruchu: <input type="range" id="plynnosc" min="1" max="50" value="30">
+	<script src="index.js"></script>
+</body>
+</html>
