@@ -1,2 +1,2 @@
-# micro-pong
-Gra w Ponga z użyciem mikrofonu
+# Micro-Pong
+Zagraj w Ponga z użyciem mikrofonu
